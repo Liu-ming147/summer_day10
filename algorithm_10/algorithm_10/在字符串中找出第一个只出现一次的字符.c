@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	char ch[10];
+	char ch[30];
 	int i, j, count;
 	scanf("%s", ch);
 	i = 1;
@@ -31,7 +31,7 @@ int main()
 			count = 1;
 		}
 		j++;
-		i = 0;
+		i = j;
 	}
 
 	return 0;
